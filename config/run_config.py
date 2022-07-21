@@ -6,13 +6,13 @@ path_params = {
     "results_path": "results",
     "test_file": 'test.txt',  # for eval, try also: test_other, data_model_2
     "model_path": 'models',
-    "model_name": "capped_10",
+    "model_name": "capped_10_16",
 }
 
 # TRAINING AND EVAL PARAMS
 model_params = {
     "learning_rate": 5.0e-5,
-    "mini_batch_size": 4,
+    "mini_batch_size": 16,
     "max_epochs": 10,
     "embeddings_storage_mode": 'none',
     "weight_decay": 0.
