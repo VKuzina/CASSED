@@ -21,5 +21,5 @@ for dataset_type in dataset_types:
             sentence += '__label__' + split_label + ' '
         sentences.append(sentence + column + '. ' + ", ".join(str(x) for x in value_df[column].to_list()))
 
-    with open(SENTENCE_DATA_FOLDER + dataset_type + '.csv', 'w') as outfile:
+    with open(SENTENCE_DATA_FOLDER + dataset_type + '.txt', 'w') as outfile:
         outfile.write("\n".join(sentences))

@@ -1,8 +1,8 @@
 path_params = {
-    "path": '/hdd/vkuzina/',
+    "path": './',
     "cache_dir": 'huggingface',
-    "standard_data_path": 'standard_data_blank/',
-    "data_path": 'data_changed_blank/',
+    "standard_data_path": 'datasets/dessi_standard/',
+    "data_path": 'datasets/dessi_prepared/',
     "results_path": "results",
     "test_file": 'test.txt',  # for eval, try also: test_other, data_model_2
     "model_path": 'models',

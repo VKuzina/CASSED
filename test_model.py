@@ -30,9 +30,9 @@ os.makedirs(CACHE_DIR)
 # Make sure the corpus is in the CAPPED sentence format by running prepare_data.py
 corpus: Corpus = ClassificationCorpus(
     DATA_FOLDER,
-    test_file='test.csv',
-    dev_file='dev.csv',
-    train_file='train.csv'
+    test_file='test.txt',
+    dev_file='dev.txt',
+    train_file='train.txt'
 )
 
 classifier = TextClassifier.load(MODEL_PATH+'/best-model.pt')
